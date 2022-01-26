@@ -9,7 +9,7 @@ import noteTakerSS from "../../img/noteTakerSS.png"
 
 function Projects() {
     return (
-        <div>
+        <div className="projects-page">
             <h2 className= "page-title">Portfolio</h2>
             <div className="row">
                 <div className= "projects col-md-4">
