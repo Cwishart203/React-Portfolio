@@ -2,6 +2,19 @@ import React from "react"
 import "./contact.css"
 
 function Contact() {
+
+    // const form = useRef();
+      
+    // function sendEmail(e) {
+    //     e.preventDefault();
+        
+    //     emailjs.sendForm('service_rqteoq9', 'contact_form', e.target, 'user_MNrnPjNdn9mL65mGVhXXX')
+    //     .then(res=>{
+    //         console.log(res);
+    //     }).catch(err=> console.log(err));
+    //     e.target.reset()
+    // }
+
     return (
         <div>
             <div className="contact">
@@ -14,7 +27,7 @@ function Contact() {
                                 <input
                                     type="name"
                                     id="name"
-                                    name="name"
+                                    name="user_name"
                                     class="form-control"
                                 ></input> 
                         </div>
@@ -26,7 +39,7 @@ function Contact() {
                             <input
                                 type="email"
                                 id="email"
-                                name="email"
+                                name="user_email"
                                 class="form-control"
                             ></input>
                         </div>
