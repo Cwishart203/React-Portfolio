@@ -1,0 +1,14 @@
+footer {
+    background-color: slategray;
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 24px;
+}
