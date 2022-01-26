@@ -14,7 +14,9 @@ function Navbar() {
                         <li>
                             <p>Portfolio</p>
                         </li>
-                        <li>Contact</li>
+                        <li>
+                            <p>Contact</p>
+                        </li>
                     </ul>
                 </nav>
             </header>

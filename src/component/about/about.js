@@ -17,7 +17,6 @@ function About() {
                 am now trying my hand at the art of coding and web development.</p>
                 </div>
             </div>
-
         </div>
     )
 }

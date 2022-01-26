@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       < Navbar />
       < Aboutme />
-        {/* <Route path="/About" exact component={() => <Aboutme />} /> */}
-
+      < Portfolio />
     </div>
   );
 }
