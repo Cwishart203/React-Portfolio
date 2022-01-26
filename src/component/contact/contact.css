@@ -1,7 +1,21 @@
+.contact {
+    padding: 24px;
+    justify-content: center;
+}
+
 h2 {
     text-align: center;
 }
 
+.row {
+    justify-content: center;
+}
+
 .contact {
     text-align: center;
+}
+
+button {
+    padding: 5px;
+    margin: 20px;
 }
