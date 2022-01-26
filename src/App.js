@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { default as Navbar } from "./component/navbar/navbar"
 import { default as AboutMe } from "./pages/AboutMe"
 import { default as Portfolio } from "./pages/Portfolio"
@@ -10,9 +11,11 @@ function App() {
   return (
     <Router>
       < Navbar />
-      < AboutMe />
-      < Portfolio />
-      < ContactMe />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<ContactMe />} />
+        </Routes>
       < Footer />
     </Router>
   );
