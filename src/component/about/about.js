@@ -1,12 +1,13 @@
 import React from "react"
 import "./about.css"
+import chrisOc from "../../img/chrisOc.png"
 
 function About() {
     return (
         <div className="about">
             <div className="row">
                 <div className="col-md-6 about-picture">
-                    <h2>Picture goes here</h2>
+                    <img src={chrisOc}/>
                 </div>
                 <div className="col-md-6 about-body">
                     <h2>About Me</h2>
