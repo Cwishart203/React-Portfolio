@@ -3,6 +3,8 @@ import "./projects.css";
 import pokeFinderSS from "../../img/pokeFinderSS.png"
 import reviewCoreSS from "../../img/reviewCoreSS.png"
 import codeQuizSS from "../../img/codeQuizSS.png"
+import passGenSS from "../../img/passGenSS.png"
+import dayPlannerSS from "../../img/dayPlannerSS.png"
 
 function Projects() {
     return (
@@ -48,6 +50,33 @@ function Projects() {
                         </h3>
                     </a>
                 </div>
+                <div className= "projects col-md-4">
+                    <img src={passGenSS}/>
+                    <a href="https://cwishart203.github.io/password-generator/">
+                        <h3 class="project-title">
+                            Password Generator
+                        </h3>
+                    </a>
+                    <a href="https://github.com/Cwishart203/Password-Generator">
+                        <h3 class="project-title">
+                            Github
+                        </h3>
+                    </a>
+                </div>
+                <div className= "projects col-md-4">
+                    <img src={dayPlannerSS}/>
+                    <a href="https://cwishart203.github.io/password-generator/">
+                        <h3 class="project-title">
+                            Day Planner
+                        </h3>
+                    </a>
+                    <a href="https://github.com/Cwishart203/Day-Planner">
+                        <h3 class="project-title">
+                            Github
+                        </h3>
+                    </a>
+                </div>
+
             </div>
         </div>
     )

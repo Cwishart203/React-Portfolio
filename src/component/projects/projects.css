@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: slategray;
+}
+
 h3 {
     color: black;
     text-decoration: none;
