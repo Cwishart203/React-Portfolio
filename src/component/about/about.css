@@ -2,4 +2,10 @@
     padding: 24px;
     background-color: lightblue;
     font-size: 30px;
+    text-align: center;
+}
+
+.about-picture {
+    justify-content: center;
+    text-align: center;
 }

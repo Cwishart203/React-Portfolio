@@ -6,7 +6,7 @@ function About() {
         <div className="about">
             <div className="row">
                 <div className="col-md-6 about-picture">
-
+                    <h2>Picture goes here</h2>
                 </div>
                 <div className="col-md-6 about-body">
                     <h2>About Me</h2>
