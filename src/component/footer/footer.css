@@ -12,3 +12,8 @@ footer ul li {
     display: inline-block;
     margin: 24px;
 }
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
