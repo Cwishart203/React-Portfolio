@@ -1,11 +1,29 @@
+* {
+    text-decoration: none;
+}
 h2 {
     text-align: center;
     padding:30px;
 }
 
+
 .projects {
     justify-content: center;
     text-align: center;
+    text-decoration: none;
+}
+
+.project-title {
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    color: black;
+    text-decoration: none;
 }
 
 .projects img {
