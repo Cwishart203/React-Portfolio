@@ -12,9 +12,9 @@ function App() {
     <Router>
       < Navbar />
         <Routes>
-          <Route path="/React-Portfolio/" element={<AboutMe />} />
-          <Route path="/Portfolio" element={<Portfolio />} />
-          <Route path="/Contact" element={<ContactMe />} />
+          <Route path="/react-portfolio/" element={<AboutMe />} />
+          <Route path="/react-portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/react-portfolio/contact" element={<ContactMe />} />
         </Routes>
       < Footer />
     </Router>
