@@ -15,7 +15,7 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="React-portfolio/Portfolio">
+                            <NavLink to="React-Portfolio/Portfolio">
                                 Portfolio
                             </NavLink>
                         </li>
