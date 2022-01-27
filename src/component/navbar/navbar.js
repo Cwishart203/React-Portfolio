@@ -10,7 +10,7 @@ function Navbar() {
                 <nav>
                     <ul>
                         <li>
-                            <NavLink to="/">
+                            <NavLink to="/React-Portfolio/">
                                 About Me
                             </NavLink>
                         </li>
