@@ -10,17 +10,17 @@ function Navbar() {
                 <nav>
                     <ul>
                         <li>
-                            <NavLink to="/react-portfolio/">
+                            <NavLink to="/React-Portfolio/">
                                 About Me
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="react-portfolio/portfolio">
+                            <NavLink to="React-portfolio/Portfolio">
                                 Portfolio
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="react-portfolio/contact">
+                            <NavLink to="React-Portfolio/Contact">
                                 Contact
                             </NavLink>
                         </li>
